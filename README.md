@@ -12,17 +12,20 @@
 ### Project testing and documentation 
 ### https://localhost:44357/swagger/index.html
 
-# Posts API Method
-    1. GET    -> GetAllPosts 
-    2. GET    -> GetSinglePost{Id}
-    3. POST   -> CreatePost{Post} 
-    4. PUT    -> UpdatePost{Post} 
-    5. DELETE -> DeletePost{Id}
-    6. GET    -> GetComments{PostId}
-    
-# Comments
-    1. GET     ->  GetAllComments
-    2. GET     ->  GetSingleComment{Id}
-    3. POST    ->  CreateComment{Comment}
-    4. PUT     ->  UpdateComment{Comment}
-    5. DELETE  ->  DeleteComments{Id}
+
+# Post API methods
+### Create Post first to see Get posts, Update Post, Delete Post 
+    1. GET    -> Get All Posts 
+    2. GET    -> Get Single Post {Id}
+    3. POST   -> Create Post {Post} 
+    4. PUT    -> Update Post {Post} 
+    5. DELETE -> Delete Post {Id}
+    6. GET    -> Get Comments {PostId}
+
+# Comment API methods
+### Create Comment first to see Get Comment, Update Comment, Delete Comment 
+    1. GET     ->  Get All Comments
+    2. GET     ->  Get Single Comment {Id}
+    3. POST    ->  Create Comment {Comment}
+    4. PUT     ->  Update Comment {Comment}
+    5. DELETE  ->  Delete Comments {Id}
