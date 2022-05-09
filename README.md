@@ -14,7 +14,7 @@
 
 
 # Post API methods
-### Create Post first to see Get posts, Update Post, Delete Post 
+### Create Post first to see Get posts, Insert Post, Update Post, Delete Post 
     1. GET    -> Get All Posts 
     2. GET    -> Get Single Post {Id}
     3. POST   -> Create Post {Post} 
@@ -23,7 +23,7 @@
     6. GET    -> Get Comments {PostId}
 
 # Comment API methods
-### Create Comment first to see Get Comment, Update Comment, Delete Comment 
+### Create Comment first to see Get Comment, Insert Comment, Update Comment, Delete Comment 
     1. GET     ->  Get All Comments
     2. GET     ->  Get Single Comment {Id}
     3. POST    ->  Create Comment {Comment}
